@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+}
+
+h1{
+  font-size: 20px;
+  text-align: center;
+  color: #2B2F42;
+  text-transform: uppercase;
+  margin: 30px;
+}
+
+a{
+  text-decoration: none;
+  color:#E82969;
+}
+
+a:hover{
+  opacity: .7;
+}
+.contenido{
+  height: 500px;
+  width: 900px;
+  border-radius: 25px;
+  background: white;
+  box-shadow: 0 4px 6px 6px rgba(30,28,28,.6);
+  position: relative;
+  }
+.parrafos{
+  line-height: 30px;
+  font-family: 'Baloo 2', cursive;
+}
+.tabla{
+  width: 100%;
+  height: 380px;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+.tabla td, .tabla th{
+  padding: 15px;
+  text-align: center;
+}
+/*seudo clases even es impares*/
+.tabla tr:nth-child(even){
+  background: #E5DDDD;
+}
+
+
+.encabezados {
+  background:#292323;
+  color: white;
+  font-size: 20px;
+  font-family: 'PT Mono', monospace;
+}
+/*SUBPAGINAS*/
+.subtitulo{
+  border-bottom: solid 5px #C6426E;
+  padding-bottom: 1em;
+  padding-top:5px;
+  font-size: 30px;
+
+}
+
+.posicion{
+  background:#D8267C;
+  color: white;
+  padding: 10px;
+  font-family: 'PT Mono', monospace;
+  border-radius: 8px;
+  margin-right:15px;
+}
+
+.boton{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+
+}
+
+.cerrar{
+  height: 40px;
+  width: 40px;
+  color:white;
+  border-radius: 50%;
+  background: #D8267C;
+  display: inline-block;
+  box-shadow: 0 0 5px #888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sub{
+  padding: 2em;
+  overflow-y: scroll;
+
+}
+.tabla{
+      font-size:19px;
+          }
+.imagenes{
+  float: left;
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+  margin: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.8);
+}
